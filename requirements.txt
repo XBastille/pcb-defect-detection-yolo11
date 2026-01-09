@@ -1,0 +1,8 @@
+ultralytics==8.3.250
+opencv-python>=4.8.0
+torch==2.8.0
+roboflow==1.2.11
+numpy
+Pillow
+tqdm
+
