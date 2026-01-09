@@ -156,11 +156,21 @@ Task2_QualityInspection/
 
 ## Dataset
 
-**DsPCBSD+** (Deep PCB Surface Defect Dataset Plus)
-- **Images**: 10,259 with 20,276 annotated defects
-- **Classes**: 9 defect types
-- **Source**: [Roboflow](https://universe.roboflow.com/pcb-egrla/dspcbsd/dataset/1)
-- **License**: CC BY 4.0
+```bibtex
+@misc{
+    dspcbsd_dataset,
+    title = { DSPCBSD+ Dataset },
+    type = { Open Source Dataset },
+    author = { pcb },
+    howpublished = { \url{ https://universe.roboflow.com/pcb-egrla/dspcbsd } },
+    url = { https://universe.roboflow.com/pcb-egrla/dspcbsd },
+    journal = { Roboflow Universe },
+    publisher = { Roboflow },
+    year = { 2024 },
+    month = { nov },
+    note = { visited on 2026-01-10 },
+}
+```
 
 ## License
 
