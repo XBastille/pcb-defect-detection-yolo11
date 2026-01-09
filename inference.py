@@ -40,7 +40,7 @@ def run_inference(checkpoint, image_path, output_image=None, output_json=None, c
     
     for i in range(len(boxes)):
         box = boxes.xyxy[i].cpu().numpy()
-        x1, y1, x2, y2 = box
+        x1, y1, x2, y2 = float(box[0]), float(box[1]), float(box[2]), float(box[3])
         center_x = (x1 + x2) / 2
         center_y = (y1 + y2) / 2
         bbox_area = (x2 - x1) * (y2 - y1)

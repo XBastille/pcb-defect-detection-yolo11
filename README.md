@@ -72,12 +72,23 @@ Defect severity is based on **area ratio** (bbox_area / image_area):
 | Medium | 0.5% - 2% | Flag for review |
 | High | ≥ 2% | Reject immediately |
 
+## Demo Video
+
+> See [videos/demo.mp4](videos/demo.mp4) for real-time inference demo.
+
 ## Quick Start
 
 ### Setup
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Download Pretrained Weights
+
+```bash
+# Download trained model
+bash download_weights.sh
 ```
 
 ### Download Dataset
@@ -193,5 +204,3 @@ Task2_QualityInspection/
 ## License
 
 MIT
-
-
