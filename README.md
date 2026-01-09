@@ -156,6 +156,25 @@ Task2_QualityInspection/
 
 ## Dataset
 
+**DsPCBSD+** (Deep PCB Surface Defect Dataset Plus)
+- **Images**: 10,259 with 20,276 annotated defects
+- **Classes**: 9 defect types
+- **Source**: [Roboflow](https://universe.roboflow.com/pcb-egrla/dspcbsd/dataset/1)
+- **License**: CC BY 4.0
+
+## References
+
+```bibtex
+@software{Jocher_Ultralytics_YOLO_2023,
+    author = {Jocher, Glenn and Qiu, Jing and Chaurasia, Ayush},
+    license = {AGPL-3.0},
+    month = jan,
+    title = {{Ultralytics YOLO}},
+    url = {https://github.com/ultralytics/ultralytics},
+    version = {8.0.0},
+    year = {2023}
+}```
+
 ```bibtex
 @misc{
     dspcbsd_dataset,
@@ -169,9 +188,7 @@ Task2_QualityInspection/
     year = { 2024 },
     month = { nov },
     note = { visited on 2026-01-10 },
-}
-```
-
+}```
 ## License
 
 MIT
