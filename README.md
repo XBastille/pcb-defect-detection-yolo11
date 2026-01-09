@@ -187,9 +187,11 @@ Task2_QualityInspection/
     year = { 2024 },
     month = { nov },
     note = { visited on 2026-01-10 },
-}```
+}
+```
 
 ## License
 
 MIT
+
 
