@@ -173,9 +173,8 @@ Task2_QualityInspection/
     url = {https://github.com/ultralytics/ultralytics},
     version = {8.0.0},
     year = {2023}
-}```
+}
 
-```bibtex
 @misc{
     dspcbsd_dataset,
     title = { DSPCBSD+ Dataset },
@@ -193,3 +192,4 @@ Task2_QualityInspection/
 ## License
 
 MIT
+
